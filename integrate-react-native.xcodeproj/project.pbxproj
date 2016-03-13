@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E914EE001C95BAC4000AA732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E914EDFF1C95BAC4000AA732 /* main.m */; };
+		E914EE031C95BAC4000AA732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E914EE021C95BAC4000AA732 /* AppDelegate.m */; };
+		E914EE061C95BAC4000AA732 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E914EE051C95BAC4000AA732 /* ViewController.m */; };
+		E914EE091C95BAC4000AA732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E914EE071C95BAC4000AA732 /* Main.storyboard */; };
+		E914EE0B1C95BAC4000AA732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E914EE0A1C95BAC4000AA732 /* Assets.xcassets */; };
+		E914EE0E1C95BAC4000AA732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E914EE0C1C95BAC4000AA732 /* LaunchScreen.storyboard */; };
+		E914EE191C95BAC4000AA732 /* integrate_react_nativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E914EE181C95BAC4000AA732 /* integrate_react_nativeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E914EE151C95BAC4000AA732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E914EDF31C95BAC4000AA732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E914EDFA1C95BAC4000AA732;
+			remoteInfo = "integrate-react-native";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E914EDFB1C95BAC4000AA732 /* integrate-react-native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "integrate-react-native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E914EDFF1C95BAC4000AA732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E914EE011C95BAC4000AA732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E914EE021C95BAC4000AA732 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E914EE041C95BAC4000AA732 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E914EE051C95BAC4000AA732 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E914EE081C95BAC4000AA732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E914EE0A1C95BAC4000AA732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E914EE0D1C95BAC4000AA732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E914EE0F1C95BAC4000AA732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E914EE141C95BAC4000AA732 /* integrate-react-nativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "integrate-react-nativeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E914EE181C95BAC4000AA732 /* integrate_react_nativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = integrate_react_nativeTests.m; sourceTree = "<group>"; };
+		E914EE1A1C95BAC4000AA732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E914EDF81C95BAC4000AA732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E914EE111C95BAC4000AA732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E914EDF21C95BAC4000AA732 = {
+			isa = PBXGroup;
+			children = (
+				E914EDFD1C95BAC4000AA732 /* integrate-react-native */,
+				E914EE171C95BAC4000AA732 /* integrate-react-nativeTests */,
+				E914EDFC1C95BAC4000AA732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E914EDFC1C95BAC4000AA732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E914EDFB1C95BAC4000AA732 /* integrate-react-native.app */,
+				E914EE141C95BAC4000AA732 /* integrate-react-nativeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E914EDFD1C95BAC4000AA732 /* integrate-react-native */ = {
+			isa = PBXGroup;
+			children = (
+				E914EE011C95BAC4000AA732 /* AppDelegate.h */,
+				E914EE021C95BAC4000AA732 /* AppDelegate.m */,
+				E914EE041C95BAC4000AA732 /* ViewController.h */,
+				E914EE051C95BAC4000AA732 /* ViewController.m */,
+				E914EE071C95BAC4000AA732 /* Main.storyboard */,
+				E914EE0A1C95BAC4000AA732 /* Assets.xcassets */,
+				E914EE0C1C95BAC4000AA732 /* LaunchScreen.storyboard */,
+				E914EE0F1C95BAC4000AA732 /* Info.plist */,
+				E914EDFE1C95BAC4000AA732 /* Supporting Files */,
+			);
+			path = "integrate-react-native";
+			sourceTree = "<group>";
+		};
+		E914EDFE1C95BAC4000AA732 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E914EDFF1C95BAC4000AA732 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E914EE171C95BAC4000AA732 /* integrate-react-nativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E914EE181C95BAC4000AA732 /* integrate_react_nativeTests.m */,
+				E914EE1A1C95BAC4000AA732 /* Info.plist */,
+			);
+			path = "integrate-react-nativeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E914EDFA1C95BAC4000AA732 /* integrate-react-native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E914EE1D1C95BAC4000AA732 /* Build configuration list for PBXNativeTarget "integrate-react-native" */;
+			buildPhases = (
+				E914EDF71C95BAC4000AA732 /* Sources */,
+				E914EDF81C95BAC4000AA732 /* Frameworks */,
+				E914EDF91C95BAC4000AA732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "integrate-react-native";
+			productName = "integrate-react-native";
+			productReference = E914EDFB1C95BAC4000AA732 /* integrate-react-native.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E914EE131C95BAC4000AA732 /* integrate-react-nativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E914EE201C95BAC4000AA732 /* Build configuration list for PBXNativeTarget "integrate-react-nativeTests" */;
+			buildPhases = (
+				E914EE101C95BAC4000AA732 /* Sources */,
+				E914EE111C95BAC4000AA732 /* Frameworks */,
+				E914EE121C95BAC4000AA732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E914EE161C95BAC4000AA732 /* PBXTargetDependency */,
+			);
+			name = "integrate-react-nativeTests";
+			productName = "integrate-react-nativeTests";
+			productReference = E914EE141C95BAC4000AA732 /* integrate-react-nativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E914EDF31C95BAC4000AA732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = limengchun;
+				TargetAttributes = {
+					E914EDFA1C95BAC4000AA732 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = E2SL992NVS;
+					};
+					E914EE131C95BAC4000AA732 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = E2SL992NVS;
+						TestTargetID = E914EDFA1C95BAC4000AA732;
+					};
+				};
+			};
+			buildConfigurationList = E914EDF61C95BAC4000AA732 /* Build configuration list for PBXProject "integrate-react-native" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E914EDF21C95BAC4000AA732;
+			productRefGroup = E914EDFC1C95BAC4000AA732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E914EDFA1C95BAC4000AA732 /* integrate-react-native */,
+				E914EE131C95BAC4000AA732 /* integrate-react-nativeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E914EDF91C95BAC4000AA732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E914EE0E1C95BAC4000AA732 /* LaunchScreen.storyboard in Resources */,
+				E914EE0B1C95BAC4000AA732 /* Assets.xcassets in Resources */,
+				E914EE091C95BAC4000AA732 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E914EE121C95BAC4000AA732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E914EDF71C95BAC4000AA732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E914EE061C95BAC4000AA732 /* ViewController.m in Sources */,
+				E914EE031C95BAC4000AA732 /* AppDelegate.m in Sources */,
+				E914EE001C95BAC4000AA732 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E914EE101C95BAC4000AA732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E914EE191C95BAC4000AA732 /* integrate_react_nativeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E914EE161C95BAC4000AA732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E914EDFA1C95BAC4000AA732 /* integrate-react-native */;
+			targetProxy = E914EE151C95BAC4000AA732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E914EE071C95BAC4000AA732 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E914EE081C95BAC4000AA732 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E914EE0C1C95BAC4000AA732 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E914EE0D1C95BAC4000AA732 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E914EE1B1C95BAC4000AA732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E914EE1C1C95BAC4000AA732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E914EE1E1C95BAC4000AA732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "integrate-react-native/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "m01.integrate-react-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E914EE1F1C95BAC4000AA732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "integrate-react-native/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "m01.integrate-react-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E914EE211C95BAC4000AA732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "integrate-react-nativeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "m01.integrate-react-nativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/integrate-react-native.app/integrate-react-native";
+			};
+			name = Debug;
+		};
+		E914EE221C95BAC4000AA732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "integrate-react-nativeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "m01.integrate-react-nativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/integrate-react-native.app/integrate-react-native";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E914EDF61C95BAC4000AA732 /* Build configuration list for PBXProject "integrate-react-native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E914EE1B1C95BAC4000AA732 /* Debug */,
+				E914EE1C1C95BAC4000AA732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E914EE1D1C95BAC4000AA732 /* Build configuration list for PBXNativeTarget "integrate-react-native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E914EE1E1C95BAC4000AA732 /* Debug */,
+				E914EE1F1C95BAC4000AA732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E914EE201C95BAC4000AA732 /* Build configuration list for PBXNativeTarget "integrate-react-nativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E914EE211C95BAC4000AA732 /* Debug */,
+				E914EE221C95BAC4000AA732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E914EDF31C95BAC4000AA732 /* Project object */;
+}
