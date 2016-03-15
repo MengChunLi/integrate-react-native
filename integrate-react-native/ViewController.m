@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "ReactNativeViewObjC.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet ReactNativeViewObjC *reactViewWrapper;
 
 @end
 
@@ -17,6 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"React Wrapper (Obj C)";
+    
+    self.reactViewWrapper.data = [@{
+                                    @"title": @"Welcome to React Native",
+                                    @"content": @"It works!"
+                                    } mutableCopy];
+    
+    [self.reactViewWrapper initializeReactView];
 }
 
 - (void)didReceiveMemoryWarning {

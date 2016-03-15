@@ -1,0 +1,15 @@
+{
+  "name": "integrate-react-native",
+  "version": "1.0.0",
+  "description": "Example of integrating react native with existing ios app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "(JS_DIR=`pwd`/ReactComponent; cd node_modules/react-native; npm run start -- --root $JS_DIR)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MengChunLi",
+  "license": "ISC",
+  "dependencies": {
+    "react-native": "^0.21.0"
+  }
+}

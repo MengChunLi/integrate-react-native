@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27405501CC5B1676A9D36F2C /* Pods_integrate_react_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097678F6BE90F850509FDD75 /* Pods_integrate_react_native.framework */; };
 		E914EE001C95BAC4000AA732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E914EDFF1C95BAC4000AA732 /* main.m */; };
 		E914EE031C95BAC4000AA732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E914EE021C95BAC4000AA732 /* AppDelegate.m */; };
 		E914EE061C95BAC4000AA732 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E914EE051C95BAC4000AA732 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		E914EE0B1C95BAC4000AA732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E914EE0A1C95BAC4000AA732 /* Assets.xcassets */; };
 		E914EE0E1C95BAC4000AA732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E914EE0C1C95BAC4000AA732 /* LaunchScreen.storyboard */; };
 		E914EE191C95BAC4000AA732 /* integrate_react_nativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E914EE181C95BAC4000AA732 /* integrate_react_nativeTests.m */; };
+		E914EE391C95C63F000AA732 /* ReactNativeViewObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = E914EE351C95C2D5000AA732 /* ReactNativeViewObjC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097678F6BE90F850509FDD75 /* Pods_integrate_react_native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_integrate_react_native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAC65E909AEE51C6C5C17D2 /* Pods-integrate-react-native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-integrate-react-native.release.xcconfig"; path = "Pods/Target Support Files/Pods-integrate-react-native/Pods-integrate-react-native.release.xcconfig"; sourceTree = "<group>"; };
+		E772404E98D3963ADC870292 /* Pods-integrate-react-native.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-integrate-react-native.debug.xcconfig"; path = "Pods/Target Support Files/Pods-integrate-react-native/Pods-integrate-react-native.debug.xcconfig"; sourceTree = "<group>"; };
 		E914EDFB1C95BAC4000AA732 /* integrate-react-native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "integrate-react-native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E914EDFF1C95BAC4000AA732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E914EE011C95BAC4000AA732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +45,9 @@
 		E914EE141C95BAC4000AA732 /* integrate-react-nativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "integrate-react-nativeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E914EE181C95BAC4000AA732 /* integrate_react_nativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = integrate_react_nativeTests.m; sourceTree = "<group>"; };
 		E914EE1A1C95BAC4000AA732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E914EE321C95C27F000AA732 /* ReactNativeViewObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeViewObjC.h; sourceTree = "<group>"; };
+		E914EE351C95C2D5000AA732 /* ReactNativeViewObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeViewObjC.m; sourceTree = "<group>"; };
+		E914EE371C95C3C0000AA732 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27405501CC5B1676A9D36F2C /* Pods_integrate_react_native.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +69,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B178258E44A60558A753D04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E772404E98D3963ADC870292 /* Pods-integrate-react-native.debug.xcconfig */,
+				4EAC65E909AEE51C6C5C17D2 /* Pods-integrate-react-native.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB55776CE85D46BE9EA278DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E914EE371C95C3C0000AA732 /* JavaScriptCore.framework */,
+				097678F6BE90F850509FDD75 /* Pods_integrate_react_native.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E914EDF21C95BAC4000AA732 = {
 			isa = PBXGroup;
 			children = (
 				E914EDFD1C95BAC4000AA732 /* integrate-react-native */,
 				E914EE171C95BAC4000AA732 /* integrate-react-nativeTests */,
 				E914EDFC1C95BAC4000AA732 /* Products */,
+				4B178258E44A60558A753D04 /* Pods */,
+				AB55776CE85D46BE9EA278DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +119,8 @@
 				E914EE0C1C95BAC4000AA732 /* LaunchScreen.storyboard */,
 				E914EE0F1C95BAC4000AA732 /* Info.plist */,
 				E914EDFE1C95BAC4000AA732 /* Supporting Files */,
+				E914EE321C95C27F000AA732 /* ReactNativeViewObjC.h */,
+				E914EE351C95C2D5000AA732 /* ReactNativeViewObjC.m */,
 			);
 			path = "integrate-react-native";
 			sourceTree = "<group>";
@@ -118,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E914EE1D1C95BAC4000AA732 /* Build configuration list for PBXNativeTarget "integrate-react-native" */;
 			buildPhases = (
+				87C07BDF56CF0DC2D6D6AE0A /* Check Pods Manifest.lock */,
 				E914EDF71C95BAC4000AA732 /* Sources */,
 				E914EDF81C95BAC4000AA732 /* Frameworks */,
 				E914EDF91C95BAC4000AA732 /* Resources */,
+				B02E33B2F82A06023C503ECB /* Embed Pods Frameworks */,
+				27EA27D3DF76A2B841748C6C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +242,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27EA27D3DF76A2B841748C6C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-integrate-react-native/Pods-integrate-react-native-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C07BDF56CF0DC2D6D6AE0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B02E33B2F82A06023C503ECB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-integrate-react-native/Pods-integrate-react-native-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E914EDF71C95BAC4000AA732 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -216,6 +298,7 @@
 				E914EE061C95BAC4000AA732 /* ViewController.m in Sources */,
 				E914EE031C95BAC4000AA732 /* AppDelegate.m in Sources */,
 				E914EE001C95BAC4000AA732 /* main.m in Sources */,
+				E914EE391C95C63F000AA732 /* ReactNativeViewObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +422,7 @@
 		};
 		E914EE1E1C95BAC4000AA732 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E772404E98D3963ADC870292 /* Pods-integrate-react-native.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "integrate-react-native/Info.plist";
@@ -350,6 +434,7 @@
 		};
 		E914EE1F1C95BAC4000AA732 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EAC65E909AEE51C6C5C17D2 /* Pods-integrate-react-native.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "integrate-react-native/Info.plist";
@@ -402,6 +487,7 @@
 				E914EE1F1C95BAC4000AA732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E914EE201C95BAC4000AA732 /* Build configuration list for PBXNativeTarget "integrate-react-nativeTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +496,7 @@
 				E914EE221C95BAC4000AA732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
