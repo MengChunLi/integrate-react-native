@@ -1,0 +1,6 @@
+framework module Pods_integrate_react_native {
+  umbrella header "Pods-integrate-react-native-umbrella.h"
+
+  export *
+  module * { export * }
+}
